@@ -98,3 +98,6 @@ const foo = (b) => {
 &&遇上假就停止，并返回这个假，相反遇到真就继续执行直到拿最后一个
 ||遇上真就停止，并返回这个真，相反遇到假就继续执行直到拿最后一个
 
+
+-------require().default
+babel6+ 用require引 export default 导出的组件  还要加个require().default
